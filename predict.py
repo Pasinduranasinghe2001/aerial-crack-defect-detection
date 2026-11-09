@@ -50,3 +50,4 @@ if __name__ == "__main__":
         conf_thresh=args.conf,
         img_size=args.imgsz
     )
+

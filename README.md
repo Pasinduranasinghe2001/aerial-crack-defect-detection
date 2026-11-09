@@ -107,3 +107,4 @@ The model is evaluated using standard COCO/PASCAL visual object detection metric
 - **Recall (R):** Ratio of correctly detected defects to ground truth defects.
 - **mAP@0.5:** Mean Average Precision at IoU threshold of 0.50.
 - **mAP@0.5:0.95:** Primary metric averaging mAP across IoU thresholds from 0.50 to 0.95 (0.05 step).
+
