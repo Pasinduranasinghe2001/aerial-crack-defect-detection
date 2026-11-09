@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch and YOLO runs
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Datasets and cache
+dataset/
+*.cache
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store

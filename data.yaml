@@ -1,0 +1,16 @@
+# Dataset configuration for Aerial Structural Crack & Defect Detection
+# Path configuration relative to project root or absolute paths
+
+path: ./dataset # dataset root dir
+train: images/train # train images (relative to 'path')
+val: images/val # val images (relative to 'path')
+test: images/test # test images (optional)
+
+# Number of classes
+nc: 3
+
+# Class names
+names:
+  0: concrete_crack
+  1: surface_spalling
+  2: roof_damage
